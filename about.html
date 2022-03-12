@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF 8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>All Products - RedStore </title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body> 
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"><img src="images/logo.png" width="125px"></a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="account.html">Account</a></li>                
+            </ul>
+        </nav>
+          <img src="images/cart.png" width="30px" height="30px">
+          <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+        
+    </div> 
+    
+   
+<h1><center>RedStore E-commerce Website</center></h1>
+    <p><center>Online Shopping is a likestyle e-commerce web application, which retails various fashion and lifestyle products (Currently Men's Wear). This project allows viewing various products available enables registered users to purchase desired products instantly using Paypal payment processor (instant pay) and also can place order by using Cash on Delivery (Pay Later) option. This project provides an easy access to Administrators and Managers to view orders placed using Pay Later and instant Pay options. In this project I use C#.Net, SQL Server 2008 and various components of ASP.NET.</center></p>
+    <p><center>Electronic commerce is generally considered to be the  saled aspect of e-business, it also consists of the exchange of data to facilitate the financing and payment aspects of business transactions. This is an effective and efficient way to communicating within an organization and one of the most effective and useful ways of conducting business. It is a matket entry strategy where the company may or may not have a physical presence.</center></p>
+    <p><center>This is a visual search system specifically targeted for apparel. It aims at assisting users buying clothing and accessories. The business-to-consumer aspect of electronic commerce (e-commerce) is the most visible business use of the World Wide Web. The primary goal of this e-commerce site is to sell goods online.</center></p>
+
+
+<!---------------- footer ----------->
+    <text-align="bottom">
+    <div class="footer">
+        <div class="container">
+            <div>
+                <h1><center>Created by Mahimyruban Mahimdass</center></h1>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2021</p>
+        </div>
+    </div>
+    
+<!----------------- js for toggle menu --------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        
+        MenuItems.style.maxHeight = "0px";
+        
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px"
+                }
+            else
+                {
+                    MenuItems.style.maxHeight = "0px";
+                }
+        }
+    </script>
+        
+</body>
+</html>
